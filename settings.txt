@@ -1,0 +1,9 @@
+# Multicam Flow settings. Leave a value blank to let Multicam Flow decide.
+# If your export includes a timeline that already uses the multicam,
+# Multicam Flow copies its range, main angle and audio angle from that timeline.
+
+main =                # safe default angle (wide / center camera)
+audio =               # angle with your clean ceremony audio
+min-shot = 2.5        # shortest shot in seconds
+max-shot = 10         # longest shot before it tries a cutaway
+moment-db = 9         # lower = catches quieter laughs, higher = only big applause
